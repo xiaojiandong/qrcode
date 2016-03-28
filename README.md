@@ -8,7 +8,6 @@ qrcode生成二维码
 ```js
 var tencent = "http://www.qq.com/"; // 腾讯网主页
 		// tencent += 1000000000 *  Math.random();
-		//var app = "http://a.app.qq.com/o/simple.jsp?pkgname=com.yourdream.app.android&g_f=991653"; // app下载页面
 		var str = toUtf8( tencent ); // 将随机字符串val 传递到下面的 toUtf8() 方法中
 		
 		// 顶部的 二维码
@@ -32,4 +31,5 @@ var tencent = "http://www.qq.com/"; // 腾讯网主页
             foreground : "green"
 		};
 		$("#codeBottom").qrcode(qrBottomObj);
+		// todo 其他逻辑...
 ```
